@@ -1,0 +1,766 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+   .messanger{
+      width: 89%;
+      height: 93.5%;  
+
+      z-index: 5;
+
+      position: fixed;
+      left: 8%;
+      top: 65px;
+   }
+
+   .MessangeMess{
+      width: 100%;
+   
+      min-height: 620px;
+      height: auto;
+   
+      position: relative;
+      top: 80px;
+   }
+
+   .Title_CameraIcon{
+      width: 50px;
+      height: 32px;
+   
+      box-sizing: content;
+      z-index: 0;
+      overflow: hidden;
+      opacity: 0.0;
+   
+      padding: 0 8px;
+   
+      background-color: #707070;
+      border-radius: 4px;
+   
+      transition: all 250ms;
+   
+      position: fixed;
+      top: 4%;
+      right: 10.5%;
+   }
+   
+   .Title_Application{
+      width: 140px;
+      height: 32px;
+      
+      z-index: 0;
+      overflow: hidden;
+      opacity: 0.0;
+   
+      background-color: #707070;
+      border-radius: 4px;
+   
+      padding: 0 5px;
+   
+      transition: all 250ms;
+   
+      position: fixed;
+      top: 4%;
+      right: 5%;
+   }
+   
+   .Title_Alerts{
+      width: 84px;
+      height: 32px;
+      
+      z-index: 0;
+      overflow: hidden;
+      opacity: 0.0;
+   
+      background-color: #707070;
+      border-radius: 4px;
+   
+      padding: 0 8px;
+   
+      transition: all 250ms;
+   
+      position: fixed;
+      top: 4%;
+      right: 1%;
+   }
+   
+   .Title_Active{
+      opacity: 0.7;
+      z-index: 20;
+   
+      transition: all 10ms;
+   }
+
+   #sidebarBig.twitch{
+      width: 24%;
+      height: 100%;
+   
+      background-color: #EFEFF1;
+      box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+      position: fixed;
+      margin-top: 49px;
+      padding-bottom: 5.1%;
+      left: -30%;
+   }
+
+   #sidebarSmall.twitchSmall{
+      width: 7.6%;
+      height: 100%;
+   
+      background-color: #EFEFF1;
+      box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+      position: fixed;
+      margin-top: 49px;
+      padding-bottom: 5.1%;
+      left: 0%;
+   }
+
+   .mess-input{
+      width: 100%;
+      height: 2.5em;
+   
+      border-top: 0.1px solid #E7E8EC;
+      box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+      background-color: #FAFBFC;
+      overflow: hidden;
+      position: absolute;
+      top: 95%;
+   }
+
+   .messange-content{
+      width: 88%;
+      height: 24px;
+      
+	   font-size: 10px;
+
+      top: 16%;
+      left: 5%;
+   }
+
+   .registration{
+      width: 70%;
+      height: 20%;
+   
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 1em;
+      padding-bottom: 0.5em;
+      margin-bottom: 45%;
+      box-shadow: 2px 2px 3px 4px #DBDBDD;
+   
+   
+      position: relative;
+      left: 5%;
+      top: 5%;
+   }
+
+   .header-band{
+	   width: 100%;
+	   height: 2.8em;
+
+	   overflow: hidden;
+	   font-size: 15px;
+	   border-bottom: 0.1px solid #E7E8EC;
+	   position: absolute;
+   }
+
+   .arrow {
+      width: 0.4em;
+      height: 0.4em;
+      border-top: 0.1em solid #C8CCD2;
+      border-right: 0.1em solid #C8CCD2;
+      
+      position: relative;
+      left: 15%;
+      top: 33%;
+   }
+
+   .header_menu{
+      width: 850px;
+      min-height: 280px;
+
+      height: auto;
+
+      overflow: hidden;
+
+      position: absolute;
+      left: 8%;
+      top: 10px;
+   }
+
+   .footer_menu{
+      width: 550px;
+      min-height: 280px;
+
+      height: auto;
+
+      overflow: hidden;
+
+      position: absolute;
+      top: 66%;
+      left: 8%;
+   }
+
+   .HelpBlock{
+      width: 35%;
+      height: 100%;
+   
+      z-index: 0;
+   
+      position:fixed;
+      right: -10%;
+   }
+
+      /*talk phone*/
+      .MenuPhone{
+         width: 122px;
+         height: 90px;
+   
+         opacity: 0;
+         transition: all 250ms;
+   
+         z-index: 0;
+   
+         position: fixed;
+         top: 20%;
+         left: 80%;
+      }
+   
+      #Phone_menu.Active{
+         opacity: 1;
+         transition: all 250ms;
+         z-index: 41;
+      
+         top: 100px;
+         left: 72%;
+      }
+   
+      .MenuPhone:hover{
+         opacity: 1;
+         transition: all 250ms;
+         z-index: 42;
+            
+         top: 100px;
+         left: 73%;
+      }
+   
+      /*talk loupe*/
+      .Loupe_title{
+         width: 90px;
+         height: 25px;
+   
+         z-index: 0;
+   
+         opacity: 0;
+   
+         overflow: hidden;
+         transition: all 250ms;
+   
+         position: fixed;
+         top: 4.5%;
+         left: 84.5%;
+      }
+   
+      .Active-Loupe{
+         opacity: 1;
+         transition: all 250ms;
+   
+         z-index: 41;
+      }
+   
+      /*talk dot*/
+      .Talk_menu{
+         width: 182px;
+      
+      
+         opacity: 0;
+         transition: all 250ms;
+         z-index: 35;
+      
+         position: fixed;
+         top: 20.5%;
+         left: 55%;
+      }
+
+      #TalkMenu.Active{
+         opacity: 1;
+         transition: all 250ms;
+         z-index: 43;
+   
+         top: 100px;
+         left: 668px;
+      }
+     
+      .Talk_menu:hover{
+         opacity: 1;
+         transition: all 250ms;
+         z-index: 43;
+   
+         top: 100px;
+         left: 668px;
+      }
+   
+      /*talk smile*/
+      .Smile_menu{
+         width: 213px;
+         height: 190px;
+
+         opacity: 0;
+         z-index: 0;
+      
+         overflow: hidden;
+         transition: all 250ms;
+      
+         position:fixed;
+         top: 80%;
+         left: 69.5%;
+      }
+      
+      .Smile_menu:hover{
+         opacity: 1;
+         z-index: 43;
+   
+         transition: all 250ms;
+      }
+   
+      .menu_smile-active{
+         opacity: 1;
+         z-index: 42;
+         transition: all 250ms;
+      }
+   
+      .smile_bl:hover{
+         background-color:#E4E6E9;
+      }
+   
+      /*talk clip*/
+      .clip_menu{
+         width: 125px;
+      
+         opacity: 0;
+         z-index: 35;
+      
+         transition: all 550ms;
+      
+         position: fixed;
+         left: 8.5%;
+         top: 80%;
+      }
+   
+      .clip_menu-active{
+         opacity: 1;
+         z-index: 42;
+         transition: all 250ms;
+      }
+      
+      .clip_menu:hover{
+         opacity: 1;
+         z-index: 42;
+      
+         transition: all 550ms;
+      }
+      
+   
+      /*talk voice*/
+      .Voice_title{
+         width: 112px;
+         height: 25px;
+   
+         z-index: 0;
+         opacity: 0;
+   
+         overflow: hidden;
+         transition: all 250ms;
+   
+         position: fixed;
+         left: 85.5%;
+         top: 93%;
+      }
+   
+      .Active-Voice{
+         z-index: 41;
+         opacity: 1;
+         transition: all 250ms;
+      }
+   
+      /*talk photo*/
+      .Photo_title{
+         width: 150px;
+         height: 25px;
+   
+         z-index: 0;
+         opacity: 0;
+   
+         overflow: hidden;
+         transition: all 250ms;
+   
+         position: fixed;
+         left: 81.5%;
+         top: 92.5%;
+      }
+   
+      .Active-Photo{
+         z-index: 41;
+         opacity: 1;
+         transition: all 250ms;
+      }
+   
+}
+
+@media only screen and (min-width : 1224px){
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){   
+   .header{
+      width: 100%;
+      height: 38px;
+      
+      overflow: hidden;
+      
+      background-color: #FFFFFF;
+      box-shadow: 0px 2px 5px 0px rgba(8,8,8, 0.1);
+      
+      
+      position: fixed;
+   }
+
+   h2{
+      width: 120px;
+      font-size: 0.7em;
+      margin-top: 0.2em;
+      margin-left: 0.6em;
+      margin-right: 80%;
+   }
+   .messanger{
+      width: 91%; 
+      height: 94%;
+
+      min-height: 1000px;
+
+      position: fixed;
+      left: 7%;
+      top: 48px;
+   }
+
+   .MessangeMess{
+      height: 1580px;
+   }
+
+   .mess-input{
+      width: 91%;
+
+      top: 95%;
+   }
+
+   .header-band{
+	   width: 100%;
+	   height: 38px;
+
+	   overflow: hidden;
+	   font-size: 15px;
+	   border-bottom: 0.1px solid #E7E8EC;
+	   position: relative;
+   }
+
+   .messange-content{
+      width: 84%;
+      height: 24px;
+      
+	   font-size: 10px;
+
+      top: 16%;
+      left: 7%;
+   }
+
+   .Account_left{
+      width: 145px;
+      height: 40px;
+      
+      float: right;
+   
+      overflow: hidden;
+   
+      position: relative;
+      top: -45px;
+   }
+
+   /*talk phone*/
+   .MenuPhone{
+      width: 122px;
+      height: 90px;
+
+      opacity: 0;
+      transition: all 250ms;
+
+      z-index: 0;
+
+      position: fixed;
+      top: 20%;
+      left: 80%;
+   }
+
+   #Phone_menu.Active{
+      opacity: 1;
+      transition: all 250ms;
+      z-index: 41;
+   
+      top: 5.5%;
+      left: 72%;
+   }
+
+   .MenuPhone:hover{
+      opacity: 1;
+      transition: all 250ms;
+      z-index: 42;
+         
+      top: 5.5%;
+      left: 73%;
+   }
+
+   /*talk loupe*/
+   .Loupe_title{
+      width: 90px;
+      height: 25px;
+
+      z-index: 0;
+
+      opacity: 0;
+
+      overflow: hidden;
+      transition: all 250ms;
+
+      position: fixed;
+      top: 2.5%;
+      left: 86%;
+   }
+
+   .Active-Loupe{
+      opacity: 1;
+      transition: all 250ms;
+
+      z-index: 41;
+   }
+
+   /*talk dot*/
+   #TalkMenu.Active{
+      opacity: 1;
+      transition: all 250ms;
+      z-index: 43;
+
+      top: 80px;
+      left: 644px;
+   }
+  
+   .Talk_menu:hover{
+      opacity: 1;
+      transition: all 250ms;
+      z-index: 43;
+
+      top: 5.5%;
+      right: 85px;	
+   }
+
+   /*talk smile*/
+   .Smile_menu{
+      width: 213px;
+      height: 190px;
+   
+      opacity: 0;
+      z-index: 0;
+   
+      overflow: hidden;
+      transition: all 250ms;
+   
+      position:fixed;
+      top: 84%;
+      left: 67.5%;
+   }
+   
+   .Smile_menu:hover{
+      opacity: 1;
+      z-index: 43;
+
+      transition: all 250ms;
+   }
+
+   .menu_smile-active{
+      opacity: 1;
+      z-index: 42;
+      transition: all 250ms;
+   }
+
+   .smile_bl:hover{
+      background-color:#E4E6E9;
+   }
+
+   /*talk clip*/
+   .clip_menu{
+      width: 125px;
+   
+      opacity: 0;
+      z-index: 35;
+   
+      transition: all 550ms;
+   
+      position: fixed;
+      left: 7.5%;
+      top: 83%;
+   }
+
+   .clip_menu-active{
+      opacity: 1;
+      z-index: 42;
+      transition: all 250ms;
+   }
+   
+   .clip_menu:hover{
+      opacity: 1;
+      z-index: 42;
+   
+      transition: all 550ms;
+   }
+   
+
+   /*talk voice*/
+   .Voice_title{
+      width: 112px;
+      height: 25px;
+
+      z-index: 0;
+      opacity: 0;
+
+      overflow: hidden;
+      transition: all 250ms;
+
+      position: fixed;
+      left: 83.5%;
+      top: 93.5%;
+   }
+
+   .Active-Voice{
+      z-index: 41;
+      opacity: 1;
+      transition: all 250ms;
+   }
+
+   /*talk photo*/
+   .Photo_title{
+      width: 150px;
+      height: 25px;
+
+      z-index: 0;
+      opacity: 0;
+
+      overflow: hidden;
+      transition: all 250ms;
+
+      position: fixed;
+      left: 78.5%;
+      top: 94%;
+   }
+
+   .Active-Photo{
+      z-index: 41;
+      opacity: 1;
+      transition: all 250ms;
+   }
+
+   .Nick{
+      font-size: 65%;
+      color:#525252;
+   
+      position: absolute;
+      left: 22%;
+      top: 0.2em;
+      text-decoration: none;
+      color: black;
+   }   
+
+   #sidebarBig.twitch{
+      width: 24%;
+      height: 100%;
+   
+      background-color: #EFEFF1;
+      box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+      position: fixed;
+      margin-top: 49px;
+      padding-bottom: 5.1%;
+      left: -30%;
+   }
+
+   #sidebarSmall.twitchSmall{
+      max-width: 50px;
+      width: 2%;
+      min-width: 38px;
+      height: 100%;
+   
+      background-color: #EFEFF1;
+      box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+      position: fixed;
+      margin-top: 36px;
+      padding-bottom: 5.1%;
+      left: 0%;
+   }
+
+   .humanSmall{
+      width: 34px;
+      height: 34px;
+   }
+
+   .LogoSmall{
+      width: 1em;
+      height: 1em;
+   
+      border-radius: 100%;
+      margin-top: 2px;
+      margin-left: 0.3em; 
+   }
+
+   .up{
+      margin-top: 48px;
+   }
+   
+   .half{
+      margin-top: 10px;
+   }
+
+   .header_menu{
+      width: 850px;
+      min-height: 280px;
+
+      height: auto;
+
+      overflow: hidden;
+
+      position: absolute;
+      left: 8%;
+      top: 10px;
+   }
+
+   .footer_menu{
+      width: 850px;
+      min-height: 280px;
+
+      height: auto;
+
+      overflow: hidden;
+
+      position: absolute;
+      top: 190%;
+      left: 8%;
+   }
+
+   .MenuPhone{
+      width: 122px;
+      height: 90px;
+   
+      opacity: 0;
+      transition: all 250ms;
+   
+      z-index: 35;
+   
+      position: fixed;
+      top: 10%;
+      left: 54%;
+   }
+
+}
+
+

@@ -1,0 +1,637 @@
+/*Часть отвечающая за основные блоки*/
+.mess-input{
+	width: 550px;
+	height: 52px;
+
+	border-top: 0.1px solid #E7E8EC;
+	box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+	background-color: #FAFBFC;
+	overflow: hidden;
+	
+	position: fixed;
+	top: auto;
+   bottom: 1%;
+}
+
+.header-band{
+	width: 100%;
+	height: 44.2px;
+
+	overflow: hidden;
+	font-size: 12px;
+	border-bottom: 0.1px solid #E7E8EC;
+	position: relative;
+}
+
+.header_menu{
+	width: 550px;
+	min-height: 280px;
+
+	height: auto;
+
+	overflow: hidden;
+
+   position: absolute;
+   left: 33%;
+	top: 10px;
+}
+
+.footer_menu{
+	width: 550px;
+	min-height: 280px;
+
+	height: auto;
+
+	overflow: hidden;
+
+	position: absolute;
+	top: 66%;
+	left: 33%;
+}
+
+.MessangeMess{
+	width: 100%;
+
+	min-height: 620px;
+	height: auto;
+
+	position: relative;
+}
+
+/*Второстепенные блоки*/
+/*Верхняя менюшка*/
+.MenuPhone{
+	width: 122px;
+	height: 90px;
+
+	opacity: 0;
+	transition: all 250ms;
+
+	z-index: 0;
+
+	position: fixed;
+	top: 20%;
+	left: 54%;
+}
+
+.Loupe_title{
+	width: 90px;
+	height: 25px;
+
+	z-index: 0;
+
+	opacity: 0;
+
+	overflow: hidden;
+	transition: all 250ms;
+
+	position: fixed;
+	top: 6%;
+	left: 61.5%;
+}
+
+.Talk_menu{
+	width: 182px;
+
+
+	opacity: 0;
+	transition: all 250ms;
+	z-index: 35;
+
+	position: fixed;
+	top: 20.5%;
+	left: 55%;
+}
+
+.Account_left{
+	width: 145px;
+	height: 45px;
+	
+	float: right;
+
+	overflow: hidden;
+
+	position: relative;
+	top: -45px;
+}
+
+.back{
+	width: 100px;
+	height: 45px;
+	font-size: 0.8em;
+	cursor: pointer;
+
+	position: relative;
+	left: 0%;
+}
+
+/*Нижняя менюшка*/
+.clip_menu{
+	width: 125px;
+
+	opacity: 0;
+	z-index: 35;
+
+	transition: all 550ms;
+
+	position: fixed;
+	left: 33.4%;
+	top: 67.5%;
+}
+
+.Photo_title{
+	width: 150px;
+	height: 25px;
+
+	z-index: 0;
+	opacity: 0;
+
+	overflow: hidden;
+	transition: all 250ms;
+
+	position: fixed;
+	left: 58%;
+	top: 90%;
+}
+
+.Voice_title{
+	width: 112px;
+	height: 25px;
+
+	z-index: 0;
+	opacity: 0;
+
+	overflow: hidden;
+	transition: all 250ms;
+
+	position: fixed;
+	left: 61.2%;
+	top: 90.5%;
+}
+
+.Smile_menu{
+	width: 213px;
+	height: 190px;
+
+	opacity: 0;
+	z-index: 0;
+
+	overflow: hidden;
+	transition: all 250ms;
+
+	position:fixed;
+	top: 69%;
+	left: 51.8%;
+}
+
+/*Второстепенные внутренние блоки*/
+/*Верхняя менюшка*/
+/*Фото Меню*/
+.Phone_menu{
+	width: 120px;
+
+	background-color: #fff;
+
+	z-index: 4;
+	padding: 4px 0;
+	border-radius: 6px;
+	border: 0.5px solid #C5D0DB;
+
+	position: relative;
+}
+
+.Triagle_background{
+	width: 6px;
+	height: 6px;
+
+	border-left: 0.5px solid #C5D0DB;
+	border-top: 0.5px solid #C5D0DB;
+
+	background-color: #fff;
+	z-index: 5;
+
+	transform: rotate(45deg);
+
+	position: relative;
+	top: 3px;
+	left: 100px
+}
+
+/*Подсказка для лупы*/
+.loupe_base{
+	width: 90px;
+	height: 18px;
+
+	background-color: #424243;
+	border-radius: 4px;
+
+	overflow: hidden;
+
+	opacity: 0.8;
+	z-index: 31;
+}
+
+.Loupe_triagle{
+	width: 0.2px;
+
+	border: 4px solid transparent; 
+	border-top: 4px solid #424243;
+
+	opacity: 0.8;
+
+	position: relative; 
+	left: 10px;
+}
+
+/*Меню многоточия*/
+.base_talk_menu{
+	width: 180px;
+
+	background-color: #fff;
+	border-radius: 6px;
+	border: 0.5px solid #C5D0DB;
+}
+
+.up_talk_menu{
+	padding: 4px 0;
+
+	border-bottom: 0.5px solid #C5D0DB;
+}
+
+.down_talk_menu{
+	padding: 4px 0;
+}
+
+.Triagle_background_talk{
+	width: 6px;
+	height: 6px;
+
+	border-left: 0.5px solid #C5D0DB;
+	border-top: 0.5px solid #C5D0DB;
+
+	background-color: #fff;
+	z-index: 5;
+
+	transform: rotate(45deg);
+
+	position: relative;
+	top: 3px;
+	left: 152px
+}
+
+/*Нижняя менюшка*/
+/*меню от clip*/
+.clipMenu{
+	padding: 4px 0;
+	border-radius: 6px;
+	border: 0.5px solid #C5D0DB;
+}
+
+.triagle_clip{
+	width: 6px;
+	height: 6px;
+
+	border-left: 0.5px solid #C5D0DB;
+	border-top: 0.5px solid #C5D0DB;
+
+	background-color: #fff;
+	z-index: 5;
+
+	transform: rotate(-135deg);
+
+	position: relative;
+	left: 18px;
+	top: -3.5px;
+}
+
+/*title для фотографии*/
+.photo_base_title{
+	width: 142px;
+	height: 18px;
+
+	background-color: #424243;
+	border-radius: 5px;
+
+	overflow: hidden;
+
+	opacity: 0.8;
+	z-index: 31;
+}
+
+.photo_title_triagle{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 6px solid #424243;
+
+	opacity: 0.8;
+	
+	position:relative;
+	left: 60px;
+}
+
+/*menu для смайликов и стикеров*/
+.Smile_base_block{
+	width: 211px;
+	height: 174px;
+
+	overflow: hidden;
+
+	border: 0.5px solid #C5D0DB;
+	border-radius: 6px;
+
+}
+
+.smile_block{
+	width:210px;
+	height: 150px;
+	
+	position:relative;
+	top: 0px;
+}
+
+.Smile_footer{
+	width:215px;
+	height: 25px;
+
+	background-color: #F0F2F5;
+	
+	overflow: hidden;
+	z-index: 40;
+
+	position: relative;
+	top: 0px;
+}
+
+.stikers_block{
+	width: 155px;
+	height: 25px;
+
+	overflow-y: hidden;
+
+	position:relative;
+	top: -25px;
+	left: 25px;
+}
+
+.stikers_base_block{
+	width: 1000px;
+	height: 25px;
+
+	overflow-x: scroll;
+}
+
+.stikers_block::-webkit-scrollbar{
+	width:0;
+	height: 0;
+}
+
+.stikers_base_block::-webkit-scrollbar{
+	width:0;
+	height: 0;
+}
+
+.triagle_smile{
+	width: 7.5px;
+	height: 7px;
+
+	border-bottom: 2px solid #C5D0DB;
+	border-right: 0.5px solid #C5D0DB;
+	background-color:#F0F2F5;
+	z-index: 32;
+	
+	transform: rotate(45deg);
+
+	position:relative;
+	top: -6px;
+	left: 188px;
+}
+
+/*title для голосового сообщения*/
+.Voice_base_title{
+	width: 112px;
+	height: 18px;
+
+	background-color: #424243;
+	border-radius: 5px;
+
+	overflow: hidden;
+	opacity: 0.8;
+	z-index: 32;
+}
+
+.Voice_title_triagle{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 6px solid #424243;
+
+	opacity: 0.8;
+
+	position:relative;
+	left: 85px
+}
+
+/*Общие блоки менюшек*/
+.Call{
+	height: 25px;
+
+	overflow: hidden;
+	cursor: pointer;
+
+	background-color: #fff;
+}
+
+/*блоки для smile*/
+.often_block{
+	width: 200px;
+	height: 60px;
+
+	overflow: hidden;
+}
+
+.emotion_block{
+	width: 205px;
+	height: 295px;
+
+	overflow: hidden;
+}
+
+.gecture_human_block{
+	width: 205px;
+	height: 295px;
+
+	overflow: hidden;
+	
+	position:relative;
+	top: -18px;
+}
+
+.smile_bl{
+	width: 12px;
+	height: 12px;
+
+	display: inline-block;
+	cursor: pointer;
+	background-color:#E4E6E9;
+}
+
+.sl_base_block{
+	width: 210px;
+	height: 80px;
+
+	overflow: hidden;
+
+	position:relative;
+	top: -30px;
+}
+
+
+/*Эффекты*/
+.Call:hover{
+	background-color: #E5EBF1;
+}
+
+#Phone_menu.Active{
+	opacity: 1;
+	transition: all 250ms;
+	z-index: 41;
+
+	top: 12%;
+}
+
+.MenuPhone:hover{
+	opacity: 1;
+	transition: all 250ms;
+	z-index: 42;
+
+	top: 12%;
+}
+
+.Active-Loupe{
+	opacity: 1;
+	transition: all 250ms;
+
+	z-index: 41;
+}
+
+.back:hover{
+	background-image: linear-gradient(to right,#F1F3F6, #FFFFFF);
+	transition: all 500ms;
+}
+
+#TalkMenu.Active{
+	opacity: 1;
+	transition: all 250ms;
+	z-index: 43;
+
+	top: 12%;
+}
+
+.Talk_menu:hover{
+	opacity: 1;
+	transition: all 250ms;
+	z-index: 43;
+
+	top: 12%;	
+}
+
+.Active-Photo{
+	z-index: 41;
+	opacity: 1;
+	transition: all 250ms;
+}
+
+.Active-Voice{
+	z-index: 41;
+	opacity: 1;
+	transition: all 250ms;
+}
+
+.smile_bl:hover{
+	background-color:#E4E6E9;
+}
+
+.button:hover{
+	background-color: #DCE1E6;
+}
+
+.clip_menu-active{
+	opacity: 1;
+	z-index: 42;
+	transition: all 250ms;
+}
+
+.clip_menu:hover{
+	opacity: 1;
+	z-index: 42;
+
+	transition: all 550ms;
+}
+
+.menu_smile-active{
+	opacity: 1;
+	z-index: 42;
+	transition: all 250ms;
+}
+
+.Smile_menu:hover{
+	opacity: 1;
+	z-index: 43;
+
+	transition: all 250ms;
+}
+
+/*Состовляющие части верхней панели*/
+
+.icon{
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	
+	border-radius: 100%;
+	position: relative;
+	top: -128px;
+	left: 105px;
+}
+
+/*Основная часть кнопки выхода*/
+/*Стрелка выхода*/
+.arrow-left {
+	transform: rotate(-135deg);
+} 
+
+.arrow {
+	width: 10px;
+	height: 10px;
+
+	border-top: 2.4px solid #C8CCD2;
+	border-right: 2.4px solid #C8CCD2;
+	
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+/*Текст у кнопки выхода*/
+.messange-content{
+	width: 80%;
+	height: 1.7em;
+
+	font-size: 12px;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-left: 1em;
+	padding-right: 0.3em;
+	word-wrap: break-word;
+
+	border-radius: 8px;
+	border: 0.2px solid #D3D9DE;
+	position: absolute;
+	top: 15%;
+	left: 8%;
+}
+
+

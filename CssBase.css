@@ -1,0 +1,271 @@
+/*Основные характеристики для начала работы*/
+*{
+	font-family: Tahoma;
+	font-size: 24px;
+	line-height: 1.6;
+	margin: 0px;
+	overflow-x: hidden;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+:root{
+   --layout--width: 960px;
+   overflow:  hidden;
+}
+
+h2{
+	width: 120px;
+	font-size: 1em;
+	margin-left: 0.8em;
+	margin-right: 80%;
+}
+
+a{
+   text-decoration: none;
+   color: #030303;
+}
+
+input {
+   outline:none;
+}
+
+/*Основные характеристики ключевых блоков*/
+body{
+   display: flex;
+   background-color: #F2F3F5;
+	overflow:  hidden;	
+}
+
+.VK{
+   overflow:  hidden;	
+}
+
+/*Основные характеристики части Ютуб*/
+.header{
+	width: 100%;
+   height: 2em;
+   
+   z-index: 10;
+   overflow: hidden;
+   
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 5px 0px rgba(8,8,8, 0.1);
+   
+	position: fixed;
+}
+
+/*Основная характеристики блоки всплывающих меню*/
+
+/*Блок для высплывающей менюшки "Создать видео"*/
+.Create{
+   width: 213px;
+
+   background-color: #fff;
+   border-left: 0.2px solid #E3E3E3;
+   border-right: 0.2px solid #E3E3E3;
+   border-bottom: 0.2px solid #E3E3E3;
+
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   margin-left: 20%;
+
+
+   opacity: 0;
+   z-index: -1;
+
+   position: fixed;
+   top: 40px;
+	right: 0%;
+}
+
+/*Блок для всплывающей менюшки "Ютуб ТВ"*/
+.Application{
+   width: 266px;
+
+   background-color: #fff;
+   border-left: 0.1px solid #E3E3E3;
+   border-right: 0.1px solid #E3E3E3;
+   border-bottom: 0.1px solid #E3E3E3;
+
+   opacity: 0;
+   z-index: -1;
+
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+
+   position: fixed;
+   top: 40px;
+   right: 9%;
+}
+
+/*Блок для всплфвающей менюшки "Уведомления"*/
+.Alerts{
+   width: 500px;
+
+   border: 0.1px solid #E3E3E3;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: -1;
+
+   position: fixed;
+   top: 40px;
+   right: 81px;
+}
+
+/*Блок для "работы с Аккаунтом*/
+.Account{
+   width: 286px;
+
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: 0;
+
+   position: fixed;
+   right: 78px;
+   top: 1%;
+}
+
+/*Блок для "взаимодействия с Аккаунтами"*/
+.AccountMenu{
+   width: 306px;
+   
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: 0;
+
+   position: fixed;
+   right: 78px;
+   top: 1%;
+}
+
+/*Блок для "Безопасного режима"*/
+.SafeModeMenu{
+   width: 292px;
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: -1;
+
+   position: fixed;
+   right: 78px;
+   top: 1%;
+}
+
+/*Блок для "Выбора темы"*/
+.ThemeMenu{
+   width: 292px;
+
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: -1;
+
+   position: fixed;
+   right: 78px;
+   top: 1%;
+}
+
+/*Блок для "Выбора языка"*/
+.LanguaguMenu{
+   width:286px;
+ 
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: -1;
+
+
+   position: fixed;
+   top: 1%;
+   right: 76px;
+}
+
+/*Блок для "Выбора страны"*/
+.CountryMenu{
+   width:286px;
+ 
+   border: 0.1px solid #E1E1E1;
+   background-color: #fff;
+
+   opacity: 0;
+   z-index: -1;
+
+   position: fixed;
+   top: 1%;
+   right: 76px;
+}
+
+.HelpBlock{
+   width: 35%;
+   height: 100%;
+
+   z-index: 5;
+
+   position:fixed;
+   right: 0%;
+}
+
+/*Основные характеристики части Вк*/
+.messanger{
+	width: 550px;
+   min-height: 683px;
+
+	height: auto;
+
+   overflow: hidden;
+   z-index: 40;
+
+	border: 0.01px solid #E7E8EC;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 4px 2px rgba(8, 8, 8, 0.1);
+
+   position: fixed;
+   left: 33%;
+   top: 55px;
+}
+
+/*Основные характеристики части Твитч*/
+/*Основная характеристики части Твитч увеличенной*/
+#sidebarBig.twitch{
+   width: 231px;
+   height: 100%;
+
+   background-color: #EFEFF1;
+   box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+   position: fixed;
+   margin-top: 47px;
+   padding-bottom: 5.1%;
+   left: 0%;
+}
+
+/*Основная характеристики части Твитч уменьшенный*/
+#sidebarSmall.twitchSmall{
+   max-width: 50px;
+   width: 3%;
+   min-width: 50px;
+   height: 100%;
+
+   background-color: #EFEFF1;
+   box-shadow: 0px 3px 4px 3px rgba(8, 8, 8, 0.1);
+   position: fixed;
+   margin-top: 47px;
+   padding-bottom: 5.1%;
+   left: -1000%;
+}
+
+
+
+
+

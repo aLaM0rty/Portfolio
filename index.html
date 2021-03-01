@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="CssBase.css">
+   <link rel="stylesheet" href="IndexCSS.css">
+   <link rel="stylesheet" href="TwitchCss.css">
+   <link rel="stylesheet" href="YoutubeCSS.css">
+   <link rel="stylesheet" href="IconStyle.css">
+   <link rel="stylesheet" href="AddaptationIcon.css">
+   <link rel="stylesheet" href="adaptation.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@600&display=swap" rel="stylesheet">
+   <script src = "code.js"></script>
+</head>
+<body>
+   <header class = "header">
+      <h2><a href="index.html">Portfolio</a></h2>
+         <div class="CameraIcon" id="OneClick" onclick="OpenMenuOne()" onmouseover="TitleCamera()" onmouseout="TitleCamera()"> 
+            <div class="CameraBase">
+               <div class="BlockOne"></div>
+               <div class="BlockTwo"></div>
+            </div>
+            <div class="triangle"></div>
+         </div>
+         <div class="ApplicationIcon" onclick="OpenMenuTwo()" onmouseover="TitleApplication()" onmouseout="TitleApplication()">
+            <div class="Block"></div>
+            <div class="Block Mid"></div>
+            <div class="Block Mid End"></div>
+            <div class="Block Start"></div>
+            <div class="Block Mid "></div>
+            <div class="Block Mid End"></div>
+            <div class="Block Start"></div>
+            <div class="Block Mid"></div>
+            <div class="Block Mid End"></div>
+         </div>
+      <div class="AlertsIcon" onclick="OpenMenuThree()" onmouseover="TitleAlerts()" onmouseout="TitleAlerts()">
+            <div class="circleBell"></div>
+            <div class="BaseBlock"></div>
+            <div class="triagleBell"></div>
+            <div class="BandBell"></div>
+            <div class="HalfCircleBell"></div>
+      </div>
+      <div class="Account-Logo" id="Account-Logo">
+         <img src="icon.jpg" id="AccountMenu" class="Account-menu" onclick="OpenMenuFour()">
+      </div>
+   </header>
+   <section class="YoutubeMenu">
+   <div class="HelpBlock">
+   </div>
+      <div class="Title_CameraIcon" id="Title_CameraIcon">
+         <span style="font-size: 14px; color: #DDDDDD; position: relative; top: -7px;">Создать</span>
+      </div>
+      <div class="Title_Application" id="Title_Application">
+         <span style="font-size: 14px; color: #DDDDDD; position: relative; top: -7px;">Приложение Youtube</span>
+      </div>
+      <div class="Title_Alerts" id="Title_Alerts">
+         <span style="font-size: 14px; color: #DDDDDD; position: relative; top: -7px;">Уведомления</span>
+      </div>
+   <div class="Create" id="Create">
+         <a href="#" class="OneCreate block">
+            <div class="CreateIconOne size">
+               <div class="CreateIconOneBackground">
+                  <div class="triagleCreateIcon"></div>
+               </div>
+            </div>
+            <span style="font-size: 59%; position: relative; top: -30px; left: 22%;">Добавить Видео</span>
+         </a>
+         <a href="#" class="TwoCreate block" onmouseover="ActiveCreateIcon()" onmouseout="ActiveCreateIcon()">
+            <div class="CreateIconTwo size">
+               <div class="CreateIconTwoBackground">
+                  <div class="LineOne" id="LineOne"></div>
+                  <div class="LineTwo" id="LineTwo"></div>
+                  <div class="RedCircle"></div>
+                  <div class="LineThree" id="LineThree"></div>
+                  <div class="LineFour" id="LineFour"></div>
+               </div>
+            </div>
+           <span style="font-size: 59%; position: relative; top: -30px; left: 22%;">Начать трансляцию</span>
+         </a>
+      </div>
+   <div class="Application" id="Application">
+         <div class="ApplicationUp border">
+            <a href="#" class="OneApplication blockTwo">
+               <div class="Application-LogoOne size">
+                  <div class="ApplicationLogoBaseBodyOne">
+                     <div class="ApplicationLogoTriagleOne"></div>
+                  </div>
+                  <div class="ApplicationLogoLine"></div>
+               </div>
+               <span style="font-size: 59%; position: relative; top: -30px; left: 22%;">YouTube Tv</span>
+            </a>
+         </div>
+         <div class="ApplicationMid border">
+            <a href="#" class="TwoApplication blockTwo">
+               <div class="Application-LogoTwo size">
+                  <div class="ApplicationLogoBaseBodyTwo">
+                     <div class="ApplicationLogoOutline">
+                        <div class="ApplicationLogoTriagleTwo"></div>
+                     </div>
+                  </div>
+               </div>
+               <span style="font-size: 59%; position: relative; top: -30px; left: 22%;">YouTube Music</span>
+            </a>
+            <a href="#" class="ThreeApplication blockTwo">
+               <div class="ApplicationLogo-Three">
+                  <img src="YoutueKids.png" class="img">
+               </div>
+               <span style="font-size: 59%; position: relative; top: -5px; left: 22%;">Youtube Детям</span>
+            </a>
+         </div>
+         <div class="ApplicationDown">
+            <a href="#" class="FourApplication blockTwo">
+               <div class="Application-LogoFour logo">
+                  <div class="ApplicationLogoBaseBodyFour">
+                     <div class="ApplicationTriagleFour"></div>
+                  </div>
+               </div>
+               <span style="font-size: 59%; position: relative; top: -5px; left: 22%;">Академия для авторов</span>
+            </a>
+            <a href="#" class="FiveApplication blockTwo">
+               <div class="Application-LogoFive logo">
+                  <div class="ApplicationLogoBaseBodyFive">
+                     <div class="ApplicationLogoTriagleFive"></div>
+                  </div>
+               </div>
+               <span style="font-size: 59%; position: relative; top: -5px; left: 22%;">YouTube для музыкантов</span>
+            </a>
+         </div>
+      </div>
+   <div class="Alerts" id="Alerts">
+      <div class="header_alerts BlockThree_Big border">
+         <span style="font-size: 66%; margin-left: 15px;">Уведомления</span>
+         <div class="Logo_alerts size" onmouseover="TitleAlertsLogo()" onmouseout="TitleAlertsLogo()">
+            <div class="CreateGearBackground">
+               <div class="CreateGearBaseBlock"></div>
+               <div class="SettingsBaseBlock"></div>
+            </div>
+            <div class="CreateGearBlockOne"></div>
+            <div class="CreateGearBlockTwo"></div>
+            <div class="CreateGearBlockThree"></div>
+            <div class="CreateGearBlockFour"></div>
+            <div class="CreateGearBlockFive"></div>
+            <div class="CreateGearBlockSix"></div>
+         </div>
+         <div class="alert_logo_title" id="alert_logo_title">
+            <span style="font-size: 59%; position: relative; top: -11px; left: 8px; color:#fff;">Настройки</span>
+         </div>
+      </div>
+      <div class="base_block_alerts">
+         <div class="alerts_Bb">
+            <div class="alerts_Bb_Up">
+            </div>
+            <div class="alerts_Bb_down">
+               <div class="Logo_alerts_big-logo">
+                  <div class="Alerts_circleBell"></div>
+                  <div class="Alerts_BaseBlock"></div>
+                  <div class="Alerts_triagleBell"></div>
+                  <div class="Alerts_BandBell"></div>
+                  <div class="Alerts_HalfCircleBell"></div>
+               </div>
+               <span style="display: block; font-size: 69%; color:#525252; font-weight: 600; position: relative; left: 155px; top: 40px;">Здесь пока ничего нет</span>
+               <span style="display: block; width: 310px; text-align: center; font-size: 65%; color: #606060; position:relative; left: 100px; top: 40px;">В этом разделе будут собраны уведомления о новых видео на каналах, на которые вы подписаны.</span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="Account" id="Account">
+      <div class="InfoAccount border">
+         <div class="Avatar">
+          <img src="icon.jpg" class="ava">
+         </div>
+         <div class="account_text">
+            <span style="font-size: 61%; font-weight: bold; letter-spacing: 0.1em; position: relative; top: -50%;">Alamort.Design</span><br>
+            <span style="font-size:59%; position: relative; top: -16px;">danilmelnikov_97@mail.ru</span>
+         </div>
+          <a href="#" class="google_link">
+             <span style="font-size:59%; color:#065DCF; ">Управление аккаунтом Google</span>
+          </a>
+      </div>
+      <div class="AccountWork border">
+         <a href="#" class="MyAccount blockTwo">
+          <div class="MyAccount-Logo size">
+            <div class="MyAccountBackground">
+               <div class="MyAccount-LogoHead"></div>
+               <div class="MyAccount-LogoBody"></div>
+            </div>
+          </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Мой канал</span>
+         </a>
+         <a href="#" class="Buy blockTwo">
+          <div class="Buy-Logo size">
+            <div class="BuyBackground">
+               <div class="Block-BuyOne"></div>
+               <div class="Buy-S">
+                  <div class="BuyUpBlock-S"></div>
+                  <div class="BuyBlockOne"></div>
+                  <div class="BuyBlockTwo"></div>
+                  <div class="BuyDownBlock-S"></div>
+               </div>
+               <div class="Block-BuyTwo"></div>
+            </div>
+          </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Покупки и платные подписки</span>
+         </a>
+         <a href="#" class="CreateGear blockTwo">
+            <div class="CreateGear-Logo size">
+               <div class="CreateGearBackground">
+                  <div class="CreateGearBaseBlock"></div>
+                  <div class="CreateGearTriagle"></div>
+               </div>
+               <div class="CreateGearBlockOne"></div>
+               <div class="CreateGearBlockTwo"></div>
+               <div class="CreateGearBlockThree"></div>
+               <div class="CreateGearBlockFour"></div>
+               <div class="CreateGearBlockFive"></div>
+               <div class="CreateGearBlockSix"></div>
+            </div>
+            <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Творческая студия YouTube</span>
+         </a>
+         <a href="#" class="ChangeAccount blockTwo" onclick="OpenAccountMenu()">
+            <div class="ChangeAccount-Logo size">
+               <div class="ChangeAccountBackground">
+                  <div class="ChangeAccountBackgroundHead"></div>
+                  <div class="ChangeAccountBackgroundBody"></div>
+               </div>
+               <div class="ChangeAccountBorder"></div>
+            </div>
+          <div class="Arrow-ChangeAccount Arrow arrow-right"></div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -38px;">Сменить аккаунт</span>
+         </a>
+         <a href="#" class="Exit blockTwo">
+          <div class="Exit-Logo size">
+            <div class="ExitLogo">
+               <div class="ExitLogoArrow"></div>
+               <div class="ExitLogoLine"></div>
+            </div>
+            <div class="ExitLineOne"></div>
+            <div class="ExitLineTwo"></div>
+            <div class="ExitBorder"></div>
+          </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Выйти</span>
+         </a>
+      </div>
+      <div class="SettingAccount border">
+         <a href="#" class="Theme blockTwo UpThree" onclick="OpenThemeMenu()">
+          <div class="Theme-Logo size">
+               <div class="ThemeLogoBlockOne"></div>
+               <div class="ThemeLogoBlockTwo"></div>
+               <div class="ThemeMoon"></div>
+               <div class="ThemeMoonHalf"></div>
+          </div>
+          <div class="Arrow-Theme Arrow arrow-right"></div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -38px;">Тема:</span>
+         </a>
+         <a href="#" class="Languagu blockTwo" onclick="OpenLanguaguMenu()">
+            <div class="LanguaguLogo">
+               <img src="languagu.png" class="LanguaguLogoSize img">
+            </div>
+          <div class="Arrow-Languagu Arrow arrow-right"></div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -14px;">Язык:</span>
+         </a>
+         <a href="#" class="Country blockTwo" onclick="OpenCountryMenu()">
+            <div class="Country-Logo size">
+               <div class="CountryLogoBody">
+               </div>
+               <div class="CountryLineOne"></div>
+               <div class="CountryLineTwo"></div>
+               <div class="CountryDiagonalOne"></div>
+               <div class="CountryDiagonalTwo"></div>
+            </div>
+            <div class="Arrow-Country Arrow arrow-right"></div>
+            <span style="font-size: 59%; position:relative; left: 20%; top: -38px;">Страна:</span>
+         </a>
+         <a href="#" class="Settings blockTwo">
+          <div class="Settings-Logo size">
+               <div class="CreateGearBackground">
+                  <div class="CreateGearBaseBlock"></div>
+                  <div class="SettingsBaseBlock"></div>
+               </div>
+               <div class="CreateGearBlockOne"></div>
+               <div class="CreateGearBlockTwo"></div>
+               <div class="CreateGearBlockThree"></div>
+               <div class="CreateGearBlockFour"></div>
+               <div class="CreateGearBlockFive"></div>
+               <div class="CreateGearBlockSix"></div>
+          </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Настройки</span>
+         </a>
+         <a href="#" class="PersonalData blockTwo">
+            <div class="PersonalData-Logo size">
+               <div class="PersonalDataLogoUp">
+                  <div class="PersonalDataTriagleLeft"></div>
+                  <div class="PersonalDataTriagleRight"></div>
+               </div>
+               <div class="PersonalDataLogoBase"></div>
+               <div class="PersonalDataLogoDown"></div> 
+               <div class="PersonalDataLogoRight"></div>
+               <div class="PersonalDataLogoLeft"></div>
+               <div class="PersonalDataLogoIcon">
+                  <div class="PersonalDataLogoIcon-Head"></div>
+                  <div class="PersonalDataLogoIcon-Body"></div>
+               </div>
+            </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Личные данные на YouTube</span>
+         </a>
+         <a href="#" class="Reference blockTwo">
+            <div class="Reference-Logo size">
+               <div class="ReferenceBaseBody">
+                     <div class="ReferenceQuestionUp"></div>
+                     <div class="ReferenceQuestionMid"></div>
+                     <div class="ReferenceQuestionDown"></div>
+                  <div class="ReferenceDot"></div>
+               </div>
+            </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Справка</span>
+         </a>
+         <a href="#" class="Review blockTwo">
+            <div class="Review-Logo size">
+               <div class="ReviewBaseBlock">
+                  <div class="ReviewBlock"></div>
+                  <div class="ReviewDot"></div>
+               </div>
+               <div class="ReviewTriagle"></div>
+            </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Отправить отзыв</span>
+         </a>
+         <a href="#" class="HotKeys blockTwo DownThree">   
+            <div class="HotKeys-Logo size">
+               <div class="HotKeysBaseLogoBlock">
+                  <div class="HotKeysDot DotStart"></div>
+                  <div class="HotKeysDot DotMid"></div>
+                  <div class="HotKeysDot DotMidOne"></div>
+                  <div class="HotKeysDot DotMidTwo"></div>
+                  <div class="HotKeysDot DotEnd"></div>
+                  <div class="HotKeysDot DotStart"></div>
+                  <div class="HotKeysDot DotMid"></div>
+                  <div class="HotKeysDot DotMidOne"></div>
+                  <div class="HotKeysDot DotMidTwo"></div>
+                  <div class="HotKeysDot DotEnd"></div>
+                  <div class="HotKeysSpace"></div>
+               </div>
+            </div>
+          <span style="font-size: 59%; position:relative; left: 20%; top: -30px;">Быстрые клавиши</span>
+         </a>
+      </div>
+      <div class="SafeMode blockTwo" onclick="OpenSafeModeMenu()">
+         <div class="Arrow-SafeMode Arrow arrow-right"></div>
+         <span style="font-size: 60%; position:relative; left: 5%; top: -13px;">Безопасный режим:</span>
+      </div>
+      </div>
+   <div class="AccountMenu" id="AccountMenu_one">
+      <div class="AccountMenu-header blockThree border">
+         <div class="AccountMenuHeader-Logo" onclick="OpenAccountMenu()">
+            <div class="AccountMenuLogoArrow"></div>
+            <div class="AccountMenuLogoLine"></div>
+         </div>
+         <span style="font-size: 59%; position:relative; left: 20%; top: -33px;">Аккаунты</span>
+      </div>
+      <div class="AccountMenu-BaseBlock blockFour">
+         <span style="font-size: 52%; cursor: pointer; margin-left: 5%; margin-top: -7%;">danilmelnikov_97@mail.ru</span>
+         <a href="#" class="AccountMenuBaseBlock-Account blockFive">
+            <img src="icon.jpg" style="width: 40px; height: 40px; border-radius: 50%; position:relative; left: 5%; top: 5px;">
+            <span style="font-size: 59%; position:relative; left: 8%; top: -15px;">Alamort.Design</span>
+            <span style="font-size: 49%; margin-left: 20%; color:#606060; position:relative; left: -46%; top: 2px;">Нет подписчиков</span>
+            <div class="AccountMenuBaseCheck"></div>
+         </a>
+      </div>
+      <div class="AccountMenu-Function BL_bs">
+         <a href="#" class="AccountMenuAdd block" >
+            <div class="AccountMenuAdd-Logo">
+               <div class="AccountMenuAddLogoPlus">
+                  <div class="AccountMenuAddLogoBlockOne"></div>
+                  <div class="AccountMenudAddLogoBlockTwo"></div>
+               </div>
+               <div class="AccountMenuAddLogoHuman">
+                  <div class="AccountMenuAddLogoHead"></div>
+                  <div class="AccountMenuAddLogoBody"></div>
+               </div>
+            </div>
+            <span style="font-size: 59%; position:relative; left: 20%; top: -32px;">Добавить аккаунт</span>
+         </a>
+         <a href="#" class="AccountMenuExit block">
+            <div class="AccountMenuExit-Logo">
+               <div class="AccountMenuExitLogo">
+                  <div class="AccountMenuExitLogoArrow"></div>
+                  <div class="AccountMenuExitLogoLine"></div>
+               </div>
+               <div class="AccountMenuExitLineOne"></div>
+               <div class="AccountMenuExitLineTwo"></div>
+               <div class="AccountMenuExitBorder"></div>
+            </div>
+            <span style="font-size: 59%; position:relative; left: 20%; top: -32px;">Выйти</span>
+         </a>
+      </div>
+      </div>
+   <div class="SafeModeMenu" id="SafeModeMenu">
+      <div class="SafeModeMenu-header blockThree border">
+         <div class="SafeModeMenuHeader-Logo " onclick="OpenSafeModeMenu()">
+            <div class="SafeModeMenuHeaderLogoArrow"></div>
+            <div class="SafeModeMenuHeaderLogoLine"></div>
+         </div>
+         <span style="font-size: 61%; position:relative; left: 20%; top: -33px;">Безопасный режим</span>
+      </div>
+      <div class="SafeModeMenuBaseBlock blockSix">
+         <span style="display: block; width: 90%; font-size: 59%; position:relative; left: 5%; top: -1%; line-height: 1.6;">В безопасном режиме скрыты ролики, которые не подходят для детей. Хотя идеальных фильтров не существует, в большинстве случаев защита работает.</span>
+         <span style="display: block; width: 90%; font-size: 59%; position:relative; left: 5%; top: 8%; line-height: 1.4;">Безопасный режим будет включен только в этом браузере.</span>
+         <div class="SafeModeMenuBaseBlock-Switch">
+            <div class="SafeModeMenuSwitch"></div>
+            <div class="SafeModeMenuSwitch-block" id="ActiveSafeMode" onclick="ActiveSafeMode()"></div>
+            <span style="width: 60%; display: block; overflow: hidden; font-size: 52%; font-weight: bold; line-height: 1.4em; color:#606060; position:relative; left: 5%; top: 8%;">ВКЛЮЧИТЬ БЕЗОПАСНЫЙ РЕЖИМ</span>
+         </div>
+      </div>
+      </div>  
+   <div class="ThemeMenu" id="ThemeMenu">
+      <div class="ThemeMenu-header blockThree border">
+         <div class="ThemeMenuHeader-Logo " onclick="OpenThemeMenu()">
+            <div class="ThemeMenuHeaderLogoArrow"></div>
+            <div class="ThemeMenuHeaderLogoLine"></div>
+         </div>
+         <span style="font-size: 61%; position:relative; left: 15%; top: -31px;">Тема</span>
+      </div>
+      <div class="ThemeMenuBaseBlock BlockFive">
+         <div class="mark" id="mark"></div>
+         <span style="display: block; font-size: 52%; margin-bottom: 2.5%;  position:relative; left: 5%; top: 2px; color:#696969;">Настройка будет применена только в этом браузере.</span>
+         <a href="#" class="ThemMenuDeviceBlock blockTwo" onclick="DeviceMark()">
+           <span style="font-size: 59%; position:relative; left: 20%; top: -5px;">Как на устройстве</span>
+         </a>
+         <a href="#" class="ThemeMenuDarkBlock blockTwo" onclick="DarkMark()">
+           <span style="font-size: 59%; position:relative; left: 20%; top: -5px;">Тёмная</span>
+         </a>
+         <a href="#" class="ThemeMenuWhiteBlock blockTwo" onclick="WhiteMark()">
+           <span style="font-size: 59%; position:relative; left: 20%; top: -5px;">Светлая</span>
+         </a>
+      </div>
+      </div>
+   <div class="LanguaguMenu" id="LanguaguMenu">
+      <div class="Languagu_Bb">
+         <div class="LanguaguMenu-Header blockThree border">
+            <div class="LanguaguMenu-logo" onclick="OpenLanguaguMenu()">
+               <div class="LanguaguMenuHeaderLogoArrow"></div>
+               <div class="LanguaguMenuHeaderLogoLine"></div>
+            </div>
+            <span style="font-size: 61%; position:relative; left: 18%; top: -32px;">Выберите язык</span>
+         </div>
+         <div class="LanguaguMenu_baseBlock">
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+         </div>
+      </div>
+   </div>
+   <div class="CountryMenu" id="CountryMenu">
+      <div class="Counry_Bb">
+         <div class="CountryMenu-header blockThree border">
+            <div class="CountryMenu-logo" onclick="OpenCountryMenu()">
+               <div class="CountryMenuHeaderLogoArrow"></div>
+               <div class="CountryMenuHeaderLogoLine"></div>
+            </div> 
+            <span style="font-size: 61%; position:relative; left: 18%; top: -32px;">Выберите страну</span>
+         </div>
+         <div class="CountryMenu-BaseBlock">
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+            <div class="blockTwo"></div>
+         </div>
+      </div>
+   </div>
+   </section>
+  <section class="VK">
+      <div class ="twitch" id="sidebarBig">
+         <p class="heading">РЕКОМЕНДУЕМЫЕ КАНАЛЫ</p>
+         <div class="takeAway-background" title="Свернуть" onclick="rollUp()" >
+            <div class="takeAwayLogo">
+               <div class="takeAway"></div>
+               <div class="arrowTakeAway"></div>
+               <div class="linetakeAway"></div>
+            </div>
+         </div>
+         <div class="people">
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-one" class="online" >
+
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-two" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-three" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-four" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-five" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-six" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-seven" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-eight" class="online">
+                  </output>
+               </div>
+              </a>
+            <a href="#">
+               <div class ="human">
+                  <img src="icon.jpg" class="Logo">
+                  <p class="Name">buster</p>
+                  <p class ="Game">Counter-Strike:Global-Offencive</p>
+                  <div class="circle"></div>
+                  <output name="online-nine" class="online"> 
+                  </output>
+               </div>
+              </a>
+           <a href="#">
+            <div class ="human">
+               <img src="icon.jpg" class="Logo">
+               <p class="Name">buster</p>
+               <p class ="Game">Counter-Strike:Global-Offencive</p>
+               <div class="circle"></div>
+               <output name="online-ten" class="online">
+               </output>
+            </div>
+           </a>
+         </div>
+         <div class="registration">
+            <p class ="registration-text">Станьте частью сообщества <span class = "wordTwitch">Twitch</span>!</p>
+            <p class="description">
+               Смотрите лучшие прямые трансляции в любой точке земного шара.
+            </p>
+            <a href="#">
+               <div class="input-registration">
+                  Зарегистрироваться
+               </div>
+            </a>
+         </div>
+      </div>
+      <div class="twitchSmall" id="sidebarSmall">
+         <div class="takeAwaySmall-background" title="Развернуть" onclick="rollUp()" >
+            <div class="takeAwaySmallLogo">
+               <div class="takeAwaySmall"></div>
+               <div class="arrowTakeAwaySmall"></div>
+               <div class="linetakeAwaySmall"></div>
+            </div>
+         </div>
+         <div class="CameraSmallLogoOne">
+            <div class="CameraBlockSmallLogo"></div>
+            <div class="CameraTriagleSmallLogo"></div>
+         </div>
+         <div class="peopleSmall">
+            <a href="#">
+               <div class="humanSmall up">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+         </div>
+         <div class="CameraSmallLogoTwo">
+            <div class="CameraBlockSmallLogo"></div>
+            <div class="CameraTriagleSmallLogo"></div>
+         </div>
+         <div class="peopleSmallTwo">
+            <a href="#">
+               <div class="humanSmall half">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+            <a href="#">
+               <div class="humanSmall">
+                  <img src="icon.jpg" class="LogoSmall">
+               </div>
+            </a>
+         </div> 
+      </div>
+      <div class="header_menu">
+         <div class="MenuPhone" id="Phone_menu">
+            <div class="Triagle_background"></div>
+            <div class="Phone_menu" id="see_phone_menu" >
+               <div class="Audio Call" onmouseover="PhoneAudioActive()" onmouseout="PhoneAudioActive()">
+                  <div class="AudioCall_icon" style="position: relative; top: 2.5px;">
+                     <div class="Phone_Audio">
+                        <div class="PhoneBlockOne_Audio" id="PhoneBlockOne_Audio"></div>
+                        <div class="PhoneBlockTwo_Audio" id="PhoneBlockTwo_Audio"></div>
+                        <div class="PhoneBlockThree_Audio" id="PhoneBlockThree_Audio"></div>
+                     </div> 
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -32px; left: 30px">Аудиозвонок</span>
+               </div>
+               <div class="Video Call" onmouseover="VideoActive()" onmouseout="VideoActive()">
+                  <div class="VideoCall_icon" style="position: relative; top: 2.5px;">
+                     <div class="Camera_Video">
+                        <div class="Base_video" id="Base_video"></div>
+                        <div class="line_video_one" id="line_video_one"></div>
+                        <div class="line_video_two" id="line_video_two"></div>
+                        <div class="line_video_three" id="line_video_three"></div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -33px; left: 30px">Видеозвонок</span>
+               </div>
+            </div>
+         </div>
+         <div class="Talk_menu" id="TalkMenu" onmouseover="" onmouseout="">
+            <div class="Triagle_background_talk"></div>
+            <div class="base_talk_menu" id="talk_menu">
+               <div class="up_talk_menu">
+                  <div class="Call" onmouseover="AddActive()" onmouseout="AddActive()">
+                     <div class="add_talk_icon">
+                        <div class="add_base_block">
+                           <div class="add_main_block_one" id="add_main_block_one"></div>
+                           <div class="add_main_block_two" id="add_main_block_two"></div>
+                           <div class="add_main_block_three" id="add_main_block_three"></div>
+                           <div class="add_main_block_four" id="add_main_block_four"></div>
+                           <div class="add_block_one" id="add_block_one"></div>
+                           <div class="add_block_two" id="add_block_two"></div>
+                           <div class="add_triagle_block" id="add_triagle"></div>
+                           <div class="add_triagle_block_two" id="add_triagle_two"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Добавить в беседу</span>
+                  </div>
+                  <div class="Call" onmouseover="ClipActiveTalk()" onmouseout="ClipActiveTalk()">
+                     <div class="clip_icon_talk">
+                        <div class="clip_base_talk">
+                           <div class="clip_talk_one" id="clip_talk_one"></div>
+                           <div class="clip_talk_two" id="clip_talk_two"></div>
+                           <div class="clip_talk_three" id="clip_talk_three"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Показать вложения</span>
+                  </div>
+                  <div class="Call" onmouseover="loupeActive()" onmouseout="loupeActive()">
+                     <div class="loupe_icon_base_talk">
+                        <div class="loupe_base_talk">
+                           <div class="loupe_lens" id="loupe_lens-act"></div>
+                           <div class="loupe_icon_line" id="loupe_line-act"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Поиск по истории сообщений</span>
+                  </div>
+                  <div class="Call" onmouseover="MarkActive()" onmouseout="MarkActive()">
+                     <div class="mark_talk_icon">
+                        <div class="mark_base_block">
+                           <div class="mark_part_one" id="mark_one"></div>
+                           <div class="mark_part_one_one" id="mark_one_one"></div>
+                           <div class="mark_circle_block" id="mark_circle"></div>
+                           <div class="mark_part_two" id="mark_two"></div>
+                           <div class="mark_triagle_block_one" id="mark_triagle_one"></div>
+                           <div class="mark_triagle_block_two" id="mark_triagle_two"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Отметить непрочитанным</span>
+                  </div>
+               </div>
+               <div class="down_talk_menu">
+                  <div class="Call" onmouseover="NoticeActive()" onmouseout="NoticeActive()">
+                     <div class="notice_off_icon">
+                        <div class="notice_off_base">
+                           <div class="notice_line_one" id="notice_line_one"></div>
+                           <div class="notice_line_two" id="notice_line_two"></div>
+                           <div class="notice_line_three" id="notice_line_three"></div>
+                           <div class="notice_base_line_one" id="notice_base_line_one"></div>
+                           <div class="notice_base_block" id="notice_block"></div>
+                           <div class="notice_down_line_one" id="notice_down_line_one"></div>
+                           <div class="notice_down_line_two" id="notice_down_line_two"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Отключить уведомления</span>
+                  </div>
+                  <div class="Call" onmouseover="buttonActive()" onmouseout="buttonActive()">
+                     <div class="buttion_talk_icon">
+                        <div class="button_talk_base">
+                              <div class="up_line_handle" id="up_line_handle"></div>
+                              <div class="up_line_handle_two" id="up_line_handle_two"></div>
+                              <div class="up_line_handle_three" id="up_line_handle_three"></div>
+                              <div class="line_right" id="line_right"></div>
+                              <div class="line_left" id="line_left"></div>
+                              <div class="down_line_handle" id="down_line_handle"></div>
+                              <div class="down_line_handle_two" id="down_line_handle_two"></div>
+                              <div class="down_line_handle_three" id="down_line_handle_three"></div>
+                           </div>
+                           <div class="button_line_needle" id="button_line_needle"></div>
+                        </div>
+                        <span style="font-size:10px; position:relative; top: -43px; left: 30px">Закрепить в записке чата</span>
+                     </div>
+                  <div class="Call" onmouseover="TrashActive()" onmouseout="TrashActive()">
+                     <div class="trash_talk_icon">
+                        <div class="trash_talk_base">
+                           <div class="up_trash_block_one" id="up_trash_block"></div>
+                           <div class="trash_block_right" id="trash_block_right"></div>
+                           <div class="trash_block_left" id="trash_block_left"></div>
+                           <div class="up_trash_base_block" id="up_trash_base_block"></div>  
+                           <div class="down_trash_block" id="down_trash_block"></div>
+                        </div>
+                     </div>
+                     <span style="font-size:10px; position:relative; top: -37px; left: 30px">Очистить историю сообщений</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="Loupe_title" id="loupe_title">
+            <div class="loupe_base">
+               <span style="font-size: 10px; color: #fff; position: relative; top: -17px; left: 5px;">Поиск по беседe</span>
+            </div>
+            <div class="Loupe_triagle"></div>
+         </div>
+      </div>
+      <div class="footer_menu">
+         <div class="clip_menu" id="Menu_clip" >
+            <div class="clipMenu">
+               <div class="Call" onmouseover="photoActive()" onmouseout="photoActive()">
+                  <div class="photo_clip_icon">
+                     <div class="photo_block">
+                        <div class="photo_block_two" id="photo-two"></div>
+                        <div class="photo_block_three" id="photo-three"></div>
+                        <div class="photo_block_four" id="photo-four"></div>
+                        <div class="photo_block_one" id="photo-one">
+                           <div class="photo_circle_block" id="photo-circle"></div>
+                        </div>  
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Фотография</span>
+               </div>
+               <div class="Call" onmouseover="videoRecordActive()" onmouseout="videoRecordActive()">
+                  <div class="video_record_icon">
+                     <div class="video_record_base" id="record_one">
+                        <div class="video_record_triagle" id="record_two"></div>
+                        <div class="video_record_line" id="record_three"></div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Видеозапись</span>
+               </div>
+               <div class="Call" onmouseover="MusicActive()" onmouseout="MusicActive()">
+                  <div class="music_icon">
+                     <div class="music_base">
+                        <div class="music_block_base" id="music_base"></div>
+                        <div class="music_line" id="music_line"></div>
+                        <div class="music_drop_one" id="music_drop_one"></div>
+                        <div class="music_drop_two" id="music_drop_two"></div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Аудиозапись</span>
+               </div>
+               <div class="Call" onmouseover="FailActive()" onmouseout="FailActive()">
+                  <div class="fail_icon">
+                     <div class="fail_base">
+                        <div class="fail_block_up">
+                           <div class="fail_right_up_angle" id="fail_up_right"></div>
+                           <div class="fail_line" id="fail_line"></div>
+                           <div class="fail_right_down_angle" id="fail_down_right"></div>
+                        </div>
+                        <div class="fail_block_down" id="fail_down"></div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Файл</span>
+               </div>
+               <div class="Call" onmouseover="MapActive()" onmouseout="MapActive()">
+                  <div class="map_icon">
+                     <div class="map_block">
+                        <div class="map_base_up" id="map_base">
+                           <div class="map_circle" id="map_circle"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Карта</span>
+               </div>
+               <div class="Call" onmouseover="PresentActie()" onmouseout="PresentActie()">
+                  <div class="present_icon">
+                     <div class="present_block">
+                        <div class="present_bow_half_left" id="present_bow_right-active"></div>
+                        <div class="present_bow_half_right" id="present_bow_left-active"></div>
+                        <div class="present_line" id="present_line-active"></div>
+                        <div class="present_mid_block" id="present_mid-acitve"></div>
+                        <div class="present_down_block" id="present_down-active"></div>
+                     </div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Подарок</span>
+               </div>
+               <div class="Call" onmouseover="MoneyActive()" onmouseout="MoneyActive()">
+                  <div class="money_icon">
+                     <div class="money_up_block" id="money_up-active"></div>
+                     <div class="money_up_line" id="money_up_line-active"></div>
+                     <div class="money_down_block" id="money_down-active"></div>
+                     <div class="money_arrow" id="money_arrow-active"></div>
+                     <div class="money_circle_one" id="money_circle-active"></div>
+                  </div>
+                  <span style="font-size:10px; position:relative; top: -37px; left: 30px">Деньги</span>
+               </div>
+            </div>
+            <div class="triagle_clip"></div>
+         </div>
+         <div class="Photo_title" id="title_photo">
+            <div class="photo_base_title">
+               <span style="font-size: 10px; color: #fff; position: relative; top: -16px; left: 5px;">Прикрепить фото или видео</span>
+            </div>
+            <div class="photo_title_triagle"></div>
+         </div>
+         <div class="Smile_menu" id="menu_smile">
+            <div class="Smile_base_block">
+               <div class="smile_block">
+                  <div class="often_block">
+                     <span style="font-size:10px; color:#B1B1B1; position: relative; top: -13px; left:8px;" id="often_text">Часто используемые</span>
+
+                  </div>
+                  <div class="symbol_block"></div>
+                  <div class="animals_plants_block"></div>
+                  <div class="eat_block"></div>
+                  <div class="sport_active_block"></div>
+                  <div class="travel_block"></div>
+                  <div class="thing_block"></div>
+                  <div class="flags_block"></div>
+               </div>
+               <div class="Smile_footer">
+                  <div class="smile_button button" id="smile_button" onclick="SmileButtonActive()">
+                  <div class="smile_button_base_block">
+                     <div class="smile_button_face">
+                        <div class="smile_button_eye_one"></div>
+                        <div class="smile_button_eye_two"></div>
+                        <div class="smile_button_month"></div>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="stikers_block" id="stikers_block" onmouseover="ScrollStikersBlock()" onmouseout="ScrollStikersBlock()">
+                     <div class="stikers_base_block" id="stikers_base_block">
+                        <div class="favorites_button button" id="favorites_button" onclick="FavoritesButtonActive()">
+                           <div class="favorites_line_one"></div>
+                           <div class="favorites_line_two"></div>
+                           <div class="favorites_line_three"></div>
+                           <div class="favorites_line_four"></div>
+                           <div class="favorites_line_five"></div>
+                           <div class="favorites_line_six"></div>
+                           <div class="favorites_line_seven"></div>
+                           <div class="favorites_line_eight"></div>
+                           <div class="favorites_line_nine"></div>
+                           <div class="favorites_line_ten"></div>
+                        </div>
+                        <div class="time_button button" id="time_button" onclick="TimeButtonActive()">
+                           <div class="time_button_base">
+                              <div class="time_button_body">
+                                 <div class="time_line_one"></div>
+                                 <div class="time_line_two"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="arrow_button button" id="arrow_button" onclick="ScrollRight()">
+                        <div class="arrow_button_body" id="arrow_button_body"></div>
+                  </div>
+                  <div class="shop_button" id="shop_button" onmouseover="ShopButtonActive()" onmouseout="ShopButtonActive()">
+                     <div class="shop_button_body">
+                           <div class="shop_base_block"></div>
+                           <div class="shop_circle_one"></div>
+                           <div class="shop_circle_two"></div>
+                           <div class="shop_circle_three"></div>
+                           <div class="shop_circle_four"></div>
+                           <div class="shop_line_left"></div>
+                           <div class="shop_line_right"></div>
+                           <div class="shop_line_down"></div>
+                     </div>
+                  </div>
+               </div>
+            </div> 
+            <div class="triagle_smile" id="triagle_smile"></div>
+         </div>
+         <div class="Voice_title" id="title_voice">
+            <div class="Voice_base_title">
+               <span style="font-size: 10px; color: #fff; position: relative; top: -16px; left: 5px;">Голосовое сообщение</span>
+            </div>
+            <div class="Voice_title_triagle"></div>
+         </div>
+      </div>
+      <div class = "messanger">
+         <div class = "header-band"> 
+            <div class = "back"> <!-- Кнопка ведущая назад ко всем сообщениями(вид старого интерфейса)-->
+               <div class="arrow arrow-left"></div>  <!-- Стрелочка (веб объект), созданный при помощи css-->
+               <span style="font-size: 12px; color:#98A1AC; position:relative; left: 30px;">Назад</span>
+            </div>
+            <a href="#"><span class="Name_surname" style="font-size:  42%; color:#525252; font-weight:lighter; position: absolute; left: 42%; top: 0.8em; color: black;">Имя Фамилия</span></a> <!-- Ссылк на страницу пользователя-->
+           <time class="time"date-time="<время>"><span style="font-size: 38%; color:#949494; cursor: text; position: absolute; left: 38%; top: 50%;">Время последнего появления</span></time>
+            <div class="Account_left">
+               <div class="Phone" onmouseover="MenuHeader()" onmouseout="MenuHeader()">
+                  <div class="PhoneBlockOne" id="Phone_one"></div>
+                  <div class="PhoneBlockTwo" id="Phone_two"></div>
+                  <div class="PhoneBlockThree" id="Phone_three"></div>
+               </div> 
+               <div class="loupe" onmouseover="ActiveLoupe()" onmouseout="ActiveLoupe()">
+                  <div class="loupeCircle" id="Loupe_circle"></div>
+                  <div class="loupeLine" id="Loupe_line"></div>
+               </div>    
+               <div class="manyDot" id="manyDot" onmouseover="ActiveDot()" onmouseout="ActiveDot()">
+                  <div class="dot First" id="First-dot"></div>
+                  <div class="dot Second" id="Second-dot"></div>
+                  <div class="dot Threth" id="Threth-dot"></div>
+               </div> 
+               <a href="#"> <!-- Ссылка ведущая на страницу пользователя-->
+                  <img src="icon.jpg" class="icon"> <!--Аватарка пользователя-->
+                 </a>
+            </div>
+         </div>
+         <div class="MessangeMess"></div>
+         <div class = "mess-input">
+            <div class="Clip" onmouseover="clipActive()" onmouseout="clipActive()">
+               <div class="ClipBlockOne" id="ClipOne"></div>
+               <div class="ClipBlockTwo" id="ClipTwo"></div>
+               <div class="ClipBlockThree" id="ClipThree"></div>
+            </div>
+            <input type="text" class = "messange-content" placeholder = "Напишите сообщение...">
+            <div class="PhotoBlock" onmouseover="PhotoActive()" onmouseout="PhotoActive()">
+                  <div class="PhotoBlockTwo" id="Photo-two"></div>
+                  <div class="PhotoBlockThree" id="Photo-three"></div>
+                  <div class="PhotoBlockFour" id="Photo-four"></div>
+                  <div class="PhotoBlockOne" id="Photo-one">
+                     <div class="PhotoCircleBlock" id="Photo-circle"></div>
+                  </div>  
+            </div>
+            <div class="SmileBlock" onmouseover="SmileActive()" onmouseout="SmileActive()">
+               <div class="smile" id="smile_active">
+                  <div class="mouth" id="mouthActive"></div>
+                  <div class="eyeOne" id="eye_one_active"></div>
+                  <div class="eyeTwo" id="eye_two_active"></div>
+               </div>
+            </div>
+            <div class="VoiceBlock" onmouseover="VoiceActive()" onmouseout="VoiceActive()">
+               <div class="VoiceMicro" id="VoiceOne"></div>
+               <div class="VoiceHolder" id="VoiceTwo"></div>
+               <div class="VoiceRack" id="VoiceThree"></div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+   </footer>
+</body>
+</html>
